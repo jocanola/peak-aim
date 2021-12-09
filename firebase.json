@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "peak-aim-store",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

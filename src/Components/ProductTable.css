@@ -1,0 +1,18 @@
+.table {
+  display: flex;
+  color: black;
+  align-items: stretch;
+  padding: 25px;
+  flex-direction: column;
+}
+table {
+  width: 100%;
+}
+
+tr:nth-child(odd) {
+  background-color: wheat;
+}
+
+.d-flex {
+  display: flex;
+}

@@ -1,0 +1,89 @@
+body {
+  color: white;
+  background-color: turquoise;
+}
+
+#h3 {
+  color: black;
+  margin-left: 20px;
+  font-family: "Creepster", cursive;
+  font-weight: 800;
+}
+
+#h3 > span {
+  font-size: 30px;
+  margin: 5px;
+  text-underline-offset: black;
+}
+
+/* #h3 > #second__letter{
+ 
+} */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: white;
+  position: sticky;
+  z-index: 100;
+  bottom: -60px;
+  color: rgb(66, 41, 41);
+}
+
+.header__logo {
+  width: 60px;
+  object-fit: contain;
+  margin: 0 10px;
+  margin-top: 10px;
+  height: 80%;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+}
+
+.header__optionnotshow {
+  display: none;
+}
+
+.header__optionOne {
+  font-size: 12px;
+}
+
+.header__optionTwo {
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.header--OptionCount {
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .header__search > input {
+    display: none;
+  }
+
+  .header__search {
+    flex: 0;
+    width: 20%;
+    padding-left: 10px;
+  }
+}
